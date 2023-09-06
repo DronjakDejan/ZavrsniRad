@@ -1,0 +1,14 @@
+<div class="galerija">
+  <div class="img" *ngIf="images.length > 0; else noImage" [@fade]>
+    <button (click)="previousImage()"><i class="fas fa-chevron-left"></i></button>
+    <img [src]="images[currentImageIndex].src" >
+    <button (click)="nextImage()"><i class="fas fa-chevron-right"></i></button>
+  </div>
+
+  <div class="invisible"></div>
+  <ng-template #noImage>
+   
+  </ng-template>
+</div>
+
+

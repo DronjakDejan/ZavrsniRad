@@ -1,0 +1,16 @@
+<div class="cart-items" >
+    <div class="item-title">
+        {{item.title}}
+    </div>
+    
+    <div class="item-price">
+        {{item.priceTo()}}
+    </div>
+    <div >
+        <input type="number" [ngModel] = "item.quantity" >
+        <button (click)="increment()">+</button>
+        <button (click)="decrement()">-</button>
+    </div>
+    
+</div>
+

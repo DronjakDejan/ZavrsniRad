@@ -1,0 +1,19 @@
+<div class="cart">
+    <button  (click)="showCart = !showCart">Korpa({{cart.totalItems()}})</button>
+    <div class="items-of-cart" *ngIf="cart.totalItems() != 0"
+    [ngStyle]="{'display' : showCart ? 'block' : 'none' }">
+<app-cart-item
+    *ngFor="let item of cart.getItem()" 
+    [item] = "item"
+    (removeItem)="cart.deleteItem($event)"></app-cart-item>
+
+    <p><b>Ukupno : {{ cart.totalPrice() }}.00 din</b></p>
+    <button *ngIf="cart.totalItems() > 0" (click)="checkOut()">Checkout</button>
+ </div>
+ <div class="items-of-cart"
+ *ngIf="cart.totalItems() == 0"
+    [ngStyle]="{'display' : showCart ? 'block' : 'none' }">
+    <p>Vasa korpa je prazna</p>
+ </div>
+ 
+</div>

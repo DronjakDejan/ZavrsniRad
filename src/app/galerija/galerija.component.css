@@ -1,0 +1,110 @@
+img {
+    color: white;
+    margin-top: 5rem;
+    width:900px ;
+    height: 600px;
+    box-shadow: 4px 4px 4px black;
+}
+
+
+
+.galerija {
+    
+    top:6 rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+.img button {
+    background-color: tan;
+    position: relative;
+    width: 3rem;
+    height: 2rem;
+    bottom: 20rem;
+    cursor: pointer;
+}
+
+button i {
+    color: white;
+  }
+
+  button :hover {
+    background-color: grey;
+  }
+
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+        .galerija {
+            position: relative;
+            display: flex;
+            top: 50%;
+            left: 7%;
+            min-width: 100%;
+            min-height: 100%;
+             
+        }
+    
+        img {
+            
+            
+            
+            width: 70%;
+            height: 30%; 
+            margin-top: 15%; 
+        }
+    
+        .img button {
+            bottom: 10rem; 
+            
+        }
+
+
+        .invisible {
+            height: 200px;
+        }
+    }
+
+    @media all and ( max-width:480px) {
+
+        .galerija {
+            position: relative;
+            display: flex;
+            top: 50%;
+            left: 7%;
+            min-width: 100%;
+            min-height: 100%;
+             
+        }
+
+
+        img {
+            width: 70%;
+            height: 30%; 
+            margin-top: 15%; 
+        }
+
+        .img button {
+            bottom: 7rem; 
+            
+        }
+
+        
+    }
+
+  
+
+
+
+  
+
+
+
+
+
+
+

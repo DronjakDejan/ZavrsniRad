@@ -1,0 +1,72 @@
+[
+    {
+        "id" : 1 ,
+        "title" : "Junece meso od buta",
+        "img" : "/assets/slike/juneci_but.jpg",
+        "price" : 1400.00 ,
+        "description" : "Domace meso od juneceg buta"  
+    } ,
+    {
+        "id" : 2 ,
+        "title" : "Juneci biftek",
+        "img" : "/assets/slike/juneci_biftek.jpg",
+        "price" : 3000.00 ,
+        "description" : "Najfinije deo juneceg mesa"  
+    },
+    {
+        "id" : 3 ,
+        "title" : "Mesano mleveno meso",
+        "img" : "/assets/slike/mleveno_meso.jpg",
+        "price" : 1100.00 ,
+        "description" : "Mesano mleveno meso od svinjkog i junceg buta"  
+    },
+    {
+        "id" : 4 ,
+        "title" : "Svinjsko meso od buta",
+        "img" : "/assets/slike/svinjski_but.jpg",
+        "price" : 950.00 ,
+        "description" : "Domace svinjsko meso od buta"  
+    },
+    {
+        "id" : 5 ,
+        "title" : "Svinjski file",
+        "img" : "/assets/slike/svinjski_file.jpg",
+        "price" : 1100.00 ,
+        "description" : "Najfiniji deo svinjskog mesa"  
+    },
+    {
+        "id" : 6 ,
+        "title" : "Teleci but",
+        "img" : "/assets/slike/teletina_1.jpg",
+        "price" : 1600.00 ,
+        "description" : "Domaci teleci but"  
+    },
+    {
+        "id" : 7 ,
+        "title" : "Teleci biftek",
+        "img" : "/assets/slike/teleci_biftek.jpg",
+        "price" : 3200.00 ,
+        "description" : "Domaci teleci biftek"  
+    },
+    {
+        "id" : 8 ,
+        "title" : "Rostilj kobasice",
+        "img" : "/assets/slike/kobasice_1.jpg",
+        "price" : 1300.00 ,
+        "description" : "Specijalitet kuce , kao nijedna na svetu "  
+    },
+    {
+        "id" : 9 ,
+        "title" : "Pileci file",
+        "img" : "/assets/slike/pileci_file.jpg",
+        "price" : 900.00 ,
+        "description" : "Domace pilece belo meso"  
+    },
+    {
+        "id" : 10 ,
+        "title" : "Pileci batak",
+        "img" : "/assets/slike/pileci_batak.jpg",
+        "price" : 750.00 ,
+        "description" : "Domaci pileci batak"  
+    }
+]

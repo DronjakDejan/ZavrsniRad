@@ -1,0 +1,46 @@
+.cart-items {
+    display: grid;
+    grid-template-columns: 10rem  7rem 6rem 12rem;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: center;
+    
+}
+
+
+.ck-button {
+    width: 5rem;
+}
+
+
+
+button {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+input {
+    width: 3rem;
+    height: 1.5rem;
+}
+
+@media all and (max-width:768px) {
+
+    
+
+    }
+
+
+
+@media all and ( max-width:480px) {
+  
+
+  input {
+    width: 40%;
+    height: auto;
+}
+
+button {
+  width: 30%;
+  height: auto;
+}
+}

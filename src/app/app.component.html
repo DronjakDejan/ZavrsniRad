@@ -1,0 +1,33 @@
+<header>
+    <div class="banner">
+        <img class="cover" src="/assets/pozadina/banner1.png" >
+        <button class="hamburger-icon" (click)="toggleMenu()"><i class="fas fa-bars"></i></button>
+        <button class="form-button" (click)="formUp()">Sign in </button>
+       <div class="form" ><app-form [ngClass]="{'active': showForm }"></app-form></div>
+       <div class="logos">
+        <img class="first" src="./assets/logo1.png"  >
+        <img class="second" src="./assets/logo2.png" >
+       <img class="third" src="./assets/logo3.png" >
+        </div>
+        <div class="logo_resp"><img src="/assets/logo1.png" ></div>
+    </div>
+</header>
+<nav class="menu" [ngClass]="{ 'active': showMenu }">
+    <a routerLink="/" routerLinkActive="active">Naslovna</a>
+    <a routerLink="/galerija" routerLinkActive="active">Galerija</a>
+    <a routerLink="/prodavnica" routerLinkActive="active">Prodavnica</a>
+    <a routerLink="/kontakt" routerLinkActive="active">Kontakt</a>
+    
+</nav>  
+
+<router-outlet></router-outlet>
+<div class="space"></div>
+<footer>
+    <div class="footer">
+        <p>Copyright Mesara Jancic 2023</p>
+    </div>
+    </footer>
+
+
+
+  

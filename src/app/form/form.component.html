@@ -1,0 +1,11 @@
+<form>
+    <div class="forms">
+      <label class="email">Email:</label>
+      <input type="email" name="email" [(ngModel)]="email" required>
+    </div>
+    <div>
+      <label class="password">Password:</label>
+      <input type="password" name="password" [(ngModel)]="password" required>
+    </div>
+    <button type="submit" (click)="onSubmit()">Prijavi se</button>
+  </form>

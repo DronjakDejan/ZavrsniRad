@@ -1,0 +1,42 @@
+.products {
+    top: 2rem;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+    ;
+}
+
+
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 0.5rem;
+        padding: 0.25rem;
+    }
+
+
+}
+
+@media all and ( max-width:480px) {
+
+    .products {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        pad: 0.2rem;
+    }
+
+    app-cart {
+    position: absolute;
+    top:2rem; 
+    right: 0.4rem; 
+    
+    
+    }
+}
+

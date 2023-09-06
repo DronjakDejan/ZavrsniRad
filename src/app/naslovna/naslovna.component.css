@@ -1,0 +1,155 @@
+
+
+aside {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 0.5rem;
+    right: 40rem;
+    margin-left: 2rem;
+    z-index: 9;
+}
+
+aside img {
+    width: 10rem;
+    height: 10rem;
+}
+
+
+.img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    z-index: 10;
+}
+.img .one {
+    position:relative;
+    bottom: 25rem;
+    left: 5rem;
+    border: 0.06rem solid black;
+    box-shadow: 0.2rem 0.2rem 0.2rem black;
+    width: 550px;
+    height: 350px;
+}
+.img .two {
+    position: relative;
+    bottom: 25rem;
+    left: 10rem;
+    border: 0.06rem solid black;
+    box-shadow: 0.2rem 0.2rem 0.2rem black;
+    width: 550px;
+    height: 350px;
+}
+
+
+.tekst {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.paragraf p {
+    
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    margin: 1.5rem;
+
+    
+}
+
+.paragraf {
+    background-color: tan;
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 20px;
+    border: 2px solid tan
+}
+
+.invisible img {
+    display: none;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+    aside  {
+        display: none;
+    }
+
+    
+
+    .img {
+        display: none;
+    }
+
+    .invisible {
+        margin: 1rem;
+        height: 20vh;
+        position: absolute;
+        top: 90%;
+        left: 35%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.2rem;
+    }
+
+    .invisible img {
+        max-width: 3rem;
+        max-height: 3rem
+    }
+
+
+
+
+}
+
+@media all and ( max-width:480px) {
+
+    aside  {
+        display: none;
+        
+        
+        
+        
+    }
+
+    .img {
+        display: none;
+    }
+    .invisible img {
+        display: none;
+    }
+
+    
+
+   
+
+    .tekst {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+        margin-left: 1.5rem;
+    }
+
+
+    
+    .paragraf p {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+        
+    }
+
+}
